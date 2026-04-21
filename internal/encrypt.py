@@ -21,5 +21,5 @@ def encrypt(text):
 
 
 if __name__ == "__main__":
-    plaintext = "check_ig"
+    plaintext = "..."
     print(encrypt(plaintext))
