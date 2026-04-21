@@ -13,10 +13,8 @@ def encrypt(text):
 
         data.append(b)
 
-    # reverse
     data = data[::-1]
 
-    # 👉 zamiana na hex string
     return "".join(f"{b:02x}" for b in data)
 
 
